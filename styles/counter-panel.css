@@ -1,0 +1,37 @@
+/* components/CounterPanel.module.css */
+
+.panel {
+    width: 100%;
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    text-align: center; /* Optional: center-align text */
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .statItem {
+    flex: 1;
+    margin: 10px;
+    background-color: #ffffff; /* Background for each stat item */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statItem h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .statItem p {
+    margin: 5px 0 0;
+    font-size: 24px;
+    color: #555;
+  }
+  

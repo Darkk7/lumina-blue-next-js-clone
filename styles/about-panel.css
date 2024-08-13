@@ -1,0 +1,14 @@
+.aboutPractice {
+    text-align: center;
+    padding: 50px;
+    font-size: 35px;
+    color: black;
+}
+
+.aboutText {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    word-wrap: break-word;
+    color: #888888;
+}
